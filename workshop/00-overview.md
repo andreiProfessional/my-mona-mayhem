@@ -29,12 +29,14 @@ Before you begin, verify:
 - [ ] Your browser and terminal are both ready
 
 <!-- track:vscode:start -->
+
 - [ ] VS Code **v1.107+** (no pending updates)
 - [ ] Signed in to the **GitHub Copilot** extension
 - [ ] Chat panel open and Agent ready
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 - [ ] GitHub Copilot CLI installed and available as `copilot`
 - [ ] Authenticated in the CLI with `/login`
 - [ ] Comfortable using slash commands like `/help`, `/plan`, and `/review`
@@ -46,15 +48,16 @@ Before you begin, verify:
 
 ## 🧠 What You'll Learn
 
-| # | Skill | Description |
-|---|-------|-------------|
-| 1 | **Context Engineering** | Teach Copilot about your codebase with instructions, references, and clear constraints |
-| 2 | **Plan First** | Draft architecture before implementation |
-| 3 | **Agentic Implementation** | Let Copilot carry out multi-step coding work with your supervision |
-| 4 | **Iterative Design** | Use Copilot to transform visuals and refine interaction details |
-| 5 | **Parallel Workflows** | Split work across agents, sessions, or delegated tasks |
+| #   | Skill                      | Description                                                                            |
+| --- | -------------------------- | -------------------------------------------------------------------------------------- |
+| 1   | **Context Engineering**    | Teach Copilot about your codebase with instructions, references, and clear constraints |
+| 2   | **Plan First**             | Draft architecture before implementation                                               |
+| 3   | **Agentic Implementation** | Let Copilot carry out multi-step coding work with your supervision                     |
+| 4   | **Iterative Design**       | Use Copilot to transform visuals and refine interaction details                        |
+| 5   | **Parallel Workflows**     | Split work across agents, sessions, or delegated tasks                                 |
 
 <!-- track:vscode:start -->
+
 ### VS Code Feature Focus
 
 - **Chat + Ask mode** for exploration
@@ -64,6 +67,7 @@ Before you begin, verify:
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ### Copilot CLI Feature Focus
 
 - **Interactive CLI sessions** with `copilot`
@@ -76,14 +80,14 @@ Before you begin, verify:
 
 ## 📚 Lab Parts
 
-| Part | Title | Description |
-|------|-------|-------------|
-| [**01**](01-setup.md) | Setup & Context Engineering | Create your repo, prepare your environment, and give Copilot the right context |
-| [**02**](02-plan-and-scaffold.md) | Plan & Scaffold | Design the API and page architecture before you implement |
-| [**03**](03-agent-mode.md) | Build the Game | Wire up the battle page and contribution graphs with agentic help |
-| [**04**](04-design-vibes.md) | Design-First Theming | Turn the scaffold into a retro arcade experience |
-| [**05**](05-polish.md) | Polish & Parallel Work | Use multi-agent workflows to improve UX, resilience, and quality |
-| [**06**](06-bonus.md) | Bonus & Extensions | Explore open-ended features, sharing workflows, and extra experiments |
+| Part                              | Title                       | Description                                                                    |
+| --------------------------------- | --------------------------- | ------------------------------------------------------------------------------ |
+| [**01**](01-setup.md)             | Setup & Context Engineering | Create your repo, prepare your environment, and give Copilot the right context |
+| [**02**](02-plan-and-scaffold.md) | Plan & Scaffold             | Design the API and page architecture before you implement                      |
+| [**03**](03-agent-mode.md)        | Build the Game              | Wire up the battle page and contribution graphs with agentic help              |
+| [**04**](04-design-vibes.md)      | Design-First Theming        | Turn the scaffold into a retro arcade experience                               |
+| [**05**](05-polish.md)            | Polish & Parallel Work      | Use multi-agent workflows to improve UX, resilience, and quality               |
+| [**06**](06-bonus.md)             | Bonus & Extensions          | Explore open-ended features, sharing workflows, and extra experiments          |
 
 ---
 
@@ -95,9 +99,11 @@ Before you begin, verify:
 4. **Review Copilot's changes** — use the diff view or CLI review tools instead of accepting blindly.
 
 <!-- track:vscode:start -->
+
 5. **Use checkpoints and Undo** in chat if an iteration goes off track.
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 5. **Use `/session`, `/context`, and `/share file`** when you want to inspect or preserve your work.
 <!-- track:cli:end -->

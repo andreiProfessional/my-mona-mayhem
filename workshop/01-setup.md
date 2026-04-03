@@ -15,6 +15,7 @@ In this part you'll set up your development environment **and** teach Copilot ab
 3. Name it `my-mona-mayhem` and set visibility to **Public** (if you created from template)
 
 <!-- track:vscode:start -->
+
 ### Step 2: Choose Your Development Environment
 
 #### Option A: Local VS Code
@@ -45,9 +46,11 @@ In this part you'll set up your development environment **and** teach Copilot ab
    ```
 
 > ✅ **App is running in your browser!**
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ### Step 2: Install GitHub Copilot CLI
 
 Use the installation path that matches your machine:
@@ -95,6 +98,7 @@ Use the installation path that matches your machine:
 5. Follow the device flow prompts, then confirm that you trust the repository when the CLI asks for approval.
 
 > ✅ **You now have the app preview in one terminal and Copilot CLI ready in another.**
+
 <!-- track:cli:end -->
 
 ## Section 2: Context Engineering
@@ -102,6 +106,7 @@ Use the installation path that matches your machine:
 Context engineering is how you teach AI about your codebase. The better the context, the better every future response will be.
 
 <!-- track:vscode:start -->
+
 ### Task 1: Generate Workspace Instructions with /init
 
 Let's use the built-in `/init` command to generate a workspace instructions file for Copilot:
@@ -145,9 +150,11 @@ Open **Copilot Chat** in **Ask mode** and try these prompts:
 - `"What would I need to build to make the Battle button work?"`
 
 > 💡 Use **@workspace** to give Copilot project-wide context for more accurate answers.
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ### Task 1: Generate Repository Instructions with /init
 
 Let's use `/init` to generate a workspace instructions file for Copilot:
@@ -194,6 +201,7 @@ copilot -sp "Summarize the architecture of this repo in 5 bullet points"
 ```
 
 > **Result:** You now have instructions, command awareness, and a feel for how to feed files into Copilot CLI context.
+
 <!-- track:cli:end -->
 
 ## ✅ Part 1 Complete

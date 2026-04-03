@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="04-design-vibes.md" -->
+
 # Parte 4: Tematización Orientada al Diseño
 
 ---

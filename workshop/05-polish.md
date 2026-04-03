@@ -5,6 +5,7 @@
 Now that the app works and looks great, it's time to polish. This part is about splitting work up so you can improve responsiveness, error handling, and quality without doing everything in a single serial loop.
 
 <!-- track:vscode:start -->
+
 ## Task 1: Background Agent for Responsive Design
 
 1. In the Chat panel, click **+** → **New background agent**.
@@ -49,9 +50,11 @@ Now that the app works and looks great, it's time to polish. This part is about 
 4. Review the design variation in the PR the cloud agent creates.
 
 ## Task 4: Verify Everything
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ## Task 1: Split the Work with `/fleet`
 
 In Copilot CLI, use `/fleet` to split the work across parallel subagents, then review the combined output:
@@ -86,20 +89,21 @@ Before you wrap up, ask Copilot CLI for a review pass:
 Review the findings, fix anything you agree with, then run `/diff` again so you're clear on what changed.
 
 ## Task 4: Verify Everything
+
 <!-- track:cli:end -->
 
 > **⚠️ Not seeing changes?** If any of the polish updates aren't showing up, stop the dev server (`Ctrl+C`) and restart with `npm run dev`, then do a hard refresh (`Ctrl+Shift+R`) in your browser.
 
 Run through these test scenarios to make sure everything works:
 
-| Test | Expected Result |
-|------|----------------|
+| Test                       | Expected Result                   |
+| -------------------------- | --------------------------------- |
 | Empty fields, click Battle | Styled error with shake animation |
-| Valid usernames | Contribution graphs displayed |
-| Invalid username | Error from API with retro styling |
-| Enter key in input | Triggers battle |
-| Mobile width | Single-column responsive layout |
-| Hover contribution squares | Tooltip with date and count |
+| Valid usernames            | Contribution graphs displayed     |
+| Invalid username           | Error from API with retro styling |
+| Enter key in input         | Triggers battle                   |
+| Mobile width               | Single-column responsive layout   |
+| Hover contribution squares | Tooltip with date and count       |
 
 Build for production and confirm there are no errors:
 

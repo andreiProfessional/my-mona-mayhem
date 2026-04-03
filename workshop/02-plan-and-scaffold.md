@@ -7,10 +7,12 @@ Before writing any code, let's use Copilot's planning workflows to think through
 ## Task 1: Plan the API Architecture
 
 <!-- track:vscode:start -->
+
 1. Switch to **Plan** mode in Copilot Chat (click the mode selector at the bottom of the chat panel)
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 1. Enter **plan mode** in Copilot CLI by pressing **Shift+Tab** until the mode changes, or by using `/plan`.
 <!-- track:cli:end -->
 
@@ -29,10 +31,12 @@ Before writing any code, let's use Copilot's planning workflows to think through
    - Iterate until you're satisfied with the approach
 
 <!-- track:vscode:start -->
+
 4. Once you're happy with the plan, ask Copilot to implement it — switch to **Agent** mode and tell it to go ahead.
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 4. Once you're happy with the plan, tell Copilot CLI to proceed with implementation.
 5. Review the resulting file edits with `/diff` before approving them.
 <!-- track:cli:end -->
@@ -59,12 +63,14 @@ Before writing any code, let's use Copilot's planning workflows to think through
 ## Task 3: Plan the Battle Page
 
 <!-- track:vscode:start -->
+
 1. Stay in **Plan** mode and enter this prompt:
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 1. Stay in plan mode (or run `/plan`) and enter this prompt:
-<!-- track:cli:end -->
+   <!-- track:cli:end -->
 
    ```
    Now I need the main page. Plan a battle page for "Mona Mayhem - GitHub
@@ -77,10 +83,12 @@ Before writing any code, let's use Copilot's planning workflows to think through
 2. **Review and iterate** on the plan — ask questions, suggest changes, refine the approach.
 
 <!-- track:vscode:start -->
+
 3. When you're satisfied, switch to **Agent** mode and let Copilot build the page.
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 3. When you're satisfied, have Copilot CLI implement the approved plan.
 4. Use `/diff` again to inspect the HTML and CSS scaffolding before approving.
 <!-- track:cli:end -->

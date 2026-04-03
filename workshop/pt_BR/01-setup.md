@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="workshop/01-setup.md" -->
+
 # Parte 1: Configuração e Context Engineering
 
 ---
@@ -16,6 +17,7 @@ Nesta parte você vai configurar seu ambiente de desenvolvimento **e** ensinar o
 3. Nomeie-o como `my-mona-mayhem` e defina a visibilidade como **Public** (se criou a partir do template)
 
 <!-- track:vscode:start -->
+
 ### Passo 2: Escolha Seu Ambiente de Desenvolvimento
 
 #### Opção A: VS Code Local
@@ -46,9 +48,11 @@ Nesta parte você vai configurar seu ambiente de desenvolvimento **e** ensinar o
    ```
 
 > ✅ **O aplicativo está rodando no seu navegador!**
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ### Passo 2: Instale o GitHub Copilot CLI
 
 Use o caminho de instalação que corresponde à sua máquina:
@@ -96,6 +100,7 @@ Use o caminho de instalação que corresponde à sua máquina:
 5. Siga as instruções do fluxo de autenticação do dispositivo, depois confirme que confia no repositório quando o CLI solicitar aprovação.
 
 > ✅ **Agora você tem a pré-visualização do aplicativo em um terminal e o Copilot CLI pronto em outro.**
+
 <!-- track:cli:end -->
 
 ## Seção 2: Context Engineering
@@ -103,6 +108,7 @@ Use o caminho de instalação que corresponde à sua máquina:
 Context Engineering é como você ensina a IA sobre sua base de código. Quanto melhor o contexto, melhor será cada resposta futura.
 
 <!-- track:vscode:start -->
+
 ### Tarefa 1: Gere Instruções do Workspace com /init
 
 Vamos usar o comando integrado `/init` para gerar um arquivo de instruções do workspace para o Copilot:
@@ -146,9 +152,11 @@ Abra o **Copilot Chat** no **modo Ask** e experimente estes prompts:
 - `"What would I need to build to make the Battle button work?"`
 
 > 💡 Use **@workspace** para dar ao Copilot contexto de todo o projeto para respostas mais precisas.
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ### Tarefa 1: Gere Instruções do Repositório com /init
 
 Vamos usar `/init` para gerar um arquivo de instruções do workspace para o Copilot:
@@ -195,6 +203,7 @@ copilot -sp "Summarize the architecture of this repo in 5 bullet points"
 ```
 
 > **Resultado:** Agora você tem instruções, conhecimento de comandos e uma noção de como alimentar arquivos no contexto do Copilot CLI.
+
 <!-- track:cli:end -->
 
 ## ✅ Parte 1 Completa

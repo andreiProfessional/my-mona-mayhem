@@ -7,11 +7,15 @@ In this part, you'll use Copilot's planning and implementation loops to design a
 ## Task 1: Plan the Retro Theme
 
 <!-- track:vscode:start -->
+
 Switch to **Plan** mode in GitHub Copilot Chat.
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 Use `/plan` in GitHub Copilot CLI, or press **Shift+Tab** until plan mode is active.
+
 <!-- track:cli:end -->
 
 Enter this prompt:
@@ -20,8 +24,8 @@ Enter this prompt:
 
 Copilot will generate a detailed implementation plan covering all the visual effects. **Don't accept it immediately** — review the plan and iterate:
 
-- Suggest adjustments to animation timing (for example, *"Make the neon pulse slower, around 3 seconds"*)
-- Ask about specific effects (for example, *"How will the shimmer overlay work on the cards?"*)
+- Suggest adjustments to animation timing (for example, _"Make the neon pulse slower, around 3 seconds"_)
+- Ask about specific effects (for example, _"How will the shimmer overlay work on the cards?"_)
 - Request changes to the approach if something doesn't feel right
 
 ## Task 2: Implement the Theme
@@ -38,7 +42,9 @@ Copilot will add multiple CSS animations, pseudo-elements, and transitions acros
 - Transition and hover states for interactive elements
 
 <!-- track:cli:start -->
+
 After the changes land, use `/diff` to review the styling changes before you approve them.
+
 <!-- track:cli:end -->
 
 ## Task 3: Fine-Tune the Vibes
@@ -60,15 +66,19 @@ This is **design-first development** — you're iterating on the visual output i
 Your instructions should reflect major design decisions so later prompts stay aligned.
 
 <!-- track:vscode:start -->
+
 Ask Copilot Chat:
 
 > Add a design guide section to copilot-instructions.md describing our retro arcade theme: colors, fonts, animation style
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 Ask Copilot CLI:
 
 > Update our repository instructions with a short design guide for the retro arcade theme: colors, fonts, animation style, and the rule that new UI should keep the neon aesthetic.
+
 <!-- track:cli:end -->
 
 Commit your updated instructions and design changes once the page looks right.

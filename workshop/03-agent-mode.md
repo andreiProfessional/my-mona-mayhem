@@ -7,17 +7,20 @@ This part is where Copilot goes from planner to implementer. Instead of writing 
 ## Task 1: Wire Up the Battle
 
 <!-- track:vscode:start -->
+
 1. Switch to **Agent** mode in Copilot Chat.
 2. Enter this prompt:
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 1. Return Copilot CLI to its standard coding flow (or stay in autopilot if you want Copilot to keep moving until you stop it).
 2. Mention the page file for extra context if helpful: `@src/pages/index.astro`
 3. Enter this prompt:
-<!-- track:cli:end -->
+   <!-- track:cli:end -->
 
    > Add client-side JavaScript to the battle page that:
+   >
    > 1. When the Battle button is clicked, gets both usernames from the inputs
    > 2. Validates both are filled (show error if not)
    > 3. Fetches both users' contribution data in parallel from our API
@@ -31,11 +34,13 @@ This part is where Copilot goes from planner to implementer. Instead of writing 
    > Use TypeScript interfaces for the contribution data structure.
 
 <!-- track:vscode:start -->
+
 3. Let Agent Mode work through the implementation across `index.astro`.
 4. Review the proposed changes in the diff view before accepting them.
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 4. Let Copilot CLI work through the implementation across `src/pages/index.astro`.
 5. Use `/diff` to inspect the generated changes, then approve them.
 <!-- track:cli:end -->
@@ -55,16 +60,20 @@ This part is where Copilot goes from planner to implementer. Instead of writing 
 
 If anything isn't quite right, give Copilot follow-up feedback directly. For example:
 
-- *"The contribution squares are too large, make them 12x12px"*
-- *"Add a hover tooltip showing the date and contribution count"*
-- *"The loading state needs a pulse animation"*
+- _"The contribution squares are too large, make them 12x12px"_
+- _"Add a hover tooltip showing the date and contribution count"_
+- _"The loading state needs a pulse animation"_
 
 <!-- track:vscode:start -->
+
 Agent Mode handles multi-file changes and iterations naturally. Each follow-up prompt builds on the previous conversation, so you can refine the implementation incrementally without starting over.
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 Copilot CLI sessions keep their history, so each follow-up prompt builds on the last one. Use `/session` or `/context` if you want to inspect what Copilot is carrying forward, and `/review` after a larger iteration if you want an extra pass for bugs or polish.
+
 <!-- track:cli:end -->
 
 ## Tips for This Part

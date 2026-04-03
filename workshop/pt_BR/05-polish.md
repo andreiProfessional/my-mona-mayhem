@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="workshop/05-polish.md" -->
+
 # Parte 5: Polimento e Trabalho Paralelo
 
 ---
@@ -6,6 +7,7 @@
 Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Esta parte é sobre dividir o trabalho para que você possa melhorar a responsividade, o tratamento de erros e a qualidade sem fazer tudo em um único loop serial.
 
 <!-- track:vscode:start -->
+
 ## Tarefa 1: Agente em Segundo Plano para Design Responsivo
 
 1. No painel de Chat, clique em **+** → **New background agent**.
@@ -50,9 +52,11 @@ Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Es
 4. Revise a variação de design no PR que o agente na nuvem cria.
 
 ## Tarefa 4: Verifique Tudo
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ## Tarefa 1: Divida o Trabalho com `/fleet`
 
 No Copilot CLI, use `/fleet` para dividir o trabalho entre subagentes paralelos, depois revise o resultado combinado:
@@ -87,20 +91,21 @@ Antes de encerrar, peça ao Copilot CLI uma passada de revisão:
 Revise as descobertas, corrija o que concordar, depois execute `/diff` novamente para ter clareza sobre o que mudou.
 
 ## Tarefa 4: Verifique Tudo
+
 <!-- track:cli:end -->
 
 > **⚠️ Não está vendo as mudanças?** Se alguma das atualizações de polimento não estiver aparecendo, pare o servidor de desenvolvimento (`Ctrl+C`) e reinicie com `npm run dev`, depois faça uma atualização forçada (`Ctrl+Shift+R`) no seu navegador.
 
 Execute estes cenários de teste para garantir que tudo funciona:
 
-| Teste | Resultado Esperado |
-|-------|-------------------|
-| Campos vazios, clicar em Battle | Erro estilizado com animação de tremor |
-| Nomes de usuário válidos | Gráficos de contribuições exibidos |
-| Nome de usuário inválido | Erro da API com estilo retro |
-| Tecla Enter no input | Dispara a batalha |
-| Largura móvel | Layout responsivo de coluna única |
-| Passar o cursor sobre quadrados de contribuição | Tooltip com data e contagem |
+| Teste                                           | Resultado Esperado                     |
+| ----------------------------------------------- | -------------------------------------- |
+| Campos vazios, clicar em Battle                 | Erro estilizado com animação de tremor |
+| Nomes de usuário válidos                        | Gráficos de contribuições exibidos     |
+| Nome de usuário inválido                        | Erro da API com estilo retro           |
+| Tecla Enter no input                            | Dispara a batalha                      |
+| Largura móvel                                   | Layout responsivo de coluna única      |
+| Passar o cursor sobre quadrados de contribuição | Tooltip com data e contagem            |
 
 Compile para produção e confirme que não há erros:
 

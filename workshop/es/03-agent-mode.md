@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="03-agent-mode.md" -->
+
 # Parte 3: Agent Mode — Construir el Juego
 
 ---
@@ -12,6 +13,7 @@ Agent Mode permite a Copilot planificar e implementar cambios de forma autónoma
 2. Ingresa este prompt:
 
    > Add client-side JavaScript to the battle page that:
+   >
    > 1. When the Battle button is clicked, gets both usernames from the inputs
    > 2. Validates both are filled (show error if not)
    > 3. Fetches both users' contribution data in parallel from our API
@@ -40,9 +42,9 @@ Agent Mode permite a Copilot planificar e implementar cambios de forma autónoma
 
 Si algo no está del todo bien, dale retroalimentación a Agent directamente en el chat. Por ejemplo:
 
-- *"The contribution squares are too large, make them 12x12px"*
-- *"Add a hover tooltip showing the date and contribution count"*
-- *"The loading state needs a pulse animation"*
+- _"The contribution squares are too large, make them 12x12px"_
+- _"Add a hover tooltip showing the date and contribution count"_
+- _"The loading state needs a pulse animation"_
 
 Agent Mode maneja cambios en múltiples archivos e iteraciones de forma natural. Cada prompt de seguimiento se basa en el contexto previo, por lo que puedes refinar la implementación de forma incremental sin empezar de cero.
 

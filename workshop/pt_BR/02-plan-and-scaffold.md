@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="02-plan-and-scaffold.md" -->
+
 # Parte 2: Planejamento e Scaffold
 
 ---

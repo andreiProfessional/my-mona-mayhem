@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="README.md" -->
+
 # 🎮 Mona Mayhem
 
 **Workshop VS Code GitHub Copilot** — Construa uma Arena de Batalha de Contribuições GitHub
@@ -9,15 +10,15 @@ Um site com tema de arcade retrô construído com Astro que permite comparar os 
 
 ## 📚 Workshop
 
-| Parte | Título | Recurso do Copilot |
-|-------|--------|-------------------|
-| [00](workshop/pt_BR/00-overview.md) | Visão Geral | O que você vai aprender |
-| [01](workshop/pt_BR/01-setup.md) | Configuração & Engenharia de Contexto | Instruções de workspace, background agents |
-| [02](workshop/pt_BR/02-plan-and-scaffold.md) | Planejar & Estruturar | Plan Mode |
-| [03](workshop/pt_BR/03-agent-mode.md) | Agent Mode: Construir o Jogo | Agent Mode |
-| [04](workshop/pt_BR/04-design-vibes.md) | Temas Design-First | Plan + Agent Mode |
-| [05](workshop/pt_BR/05-polish.md) | Polimento & Multi-Agent | Background & cloud agents |
-| [06](workshop/pt_BR/06-bonus.md) | Bônus & Extensões | Desafios abertos |
+| Parte                                        | Título                                | Recurso do Copilot                         |
+| -------------------------------------------- | ------------------------------------- | ------------------------------------------ |
+| [00](workshop/pt_BR/00-overview.md)          | Visão Geral                           | O que você vai aprender                    |
+| [01](workshop/pt_BR/01-setup.md)             | Configuração & Engenharia de Contexto | Instruções de workspace, background agents |
+| [02](workshop/pt_BR/02-plan-and-scaffold.md) | Planejar & Estruturar                 | Plan Mode                                  |
+| [03](workshop/pt_BR/03-agent-mode.md)        | Agent Mode: Construir o Jogo          | Agent Mode                                 |
+| [04](workshop/pt_BR/04-design-vibes.md)      | Temas Design-First                    | Plan + Agent Mode                          |
+| [05](workshop/pt_BR/05-polish.md)            | Polimento & Multi-Agent               | Background & cloud agents                  |
+| [06](workshop/pt_BR/06-bonus.md)             | Bônus & Extensões                     | Desafios abertos                           |
 
 ## 🚀 Início Rápido
 

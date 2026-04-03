@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="workshop/00-overview.md" -->
+
 # 🎮 Mona Mayhem — Taller de GitHub Copilot
 
 ---
@@ -30,12 +31,14 @@ Antes de empezar, verifica:
 - [ ] Tu navegador y terminal están listos
 
 <!-- track:vscode:start -->
+
 - [ ] VS Code **v1.107+** (sin actualizaciones pendientes)
 - [ ] Sesión iniciada en la extensión de **GitHub Copilot**
 - [ ] Panel de Chat abierto y Agent listo
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 - [ ] GitHub Copilot CLI instalado y disponible como `copilot`
 - [ ] Autenticado en el CLI con `/login`
 - [ ] Cómodo usando comandos slash como `/help`, `/plan` y `/review`
@@ -47,15 +50,16 @@ Antes de empezar, verifica:
 
 ## 🧠 Lo Que Aprenderás
 
-| # | Habilidad | Descripción |
-|---|-----------|-------------|
-| 1 | **Context Engineering** | Enseña a Copilot sobre tu código base con instrucciones, referencias y restricciones claras |
-| 2 | **Planificar Primero** | Diseña la arquitectura antes de la implementación |
-| 3 | **Implementación Agéntica** | Deja que Copilot realice trabajo de codificación en múltiples pasos con tu supervisión |
-| 4 | **Diseño Iterativo** | Usa Copilot para transformar visuales y refinar detalles de interacción |
-| 5 | **Flujos de Trabajo Paralelos** | Divide el trabajo entre agentes, sesiones o tareas delegadas |
+| #   | Habilidad                       | Descripción                                                                                 |
+| --- | ------------------------------- | ------------------------------------------------------------------------------------------- |
+| 1   | **Context Engineering**         | Enseña a Copilot sobre tu código base con instrucciones, referencias y restricciones claras |
+| 2   | **Planificar Primero**          | Diseña la arquitectura antes de la implementación                                           |
+| 3   | **Implementación Agéntica**     | Deja que Copilot realice trabajo de codificación en múltiples pasos con tu supervisión      |
+| 4   | **Diseño Iterativo**            | Usa Copilot para transformar visuales y refinar detalles de interacción                     |
+| 5   | **Flujos de Trabajo Paralelos** | Divide el trabajo entre agentes, sesiones o tareas delegadas                                |
 
 <!-- track:vscode:start -->
+
 ### Enfoque de Funcionalidades de VS Code
 
 - **Chat + modo Ask** para exploración
@@ -65,6 +69,7 @@ Antes de empezar, verifica:
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ### Enfoque de Funcionalidades de Copilot CLI
 
 - **Sesiones interactivas del CLI** con `copilot`
@@ -77,14 +82,14 @@ Antes de empezar, verifica:
 
 ## 📚 Partes del Laboratorio
 
-| Parte | Título | Descripción |
-|-------|--------|-------------|
-| [**01**](01-setup.md) | Configuración y Context Engineering | Crea tu repositorio, prepara tu entorno y dale a Copilot el contexto adecuado |
-| [**02**](02-plan-and-scaffold.md) | Planificar y Estructurar | Diseña la API y la arquitectura de páginas antes de implementar |
-| [**03**](03-agent-mode.md) | Construir el Juego | Conecta la página de batalla y los gráficos de contribuciones con ayuda agéntica |
-| [**04**](04-design-vibes.md) | Diseño Visual Primero | Transforma la estructura base en una experiencia retro arcade |
-| [**05**](05-polish.md) | Pulido y Trabajo Paralelo | Usa flujos de trabajo multi-agente para mejorar UX, resiliencia y calidad |
-| [**06**](06-bonus.md) | Bonus y Extensiones | Explora funcionalidades abiertas, flujos de trabajo de compartición y experimentos extra |
+| Parte                             | Título                              | Descripción                                                                              |
+| --------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------- |
+| [**01**](01-setup.md)             | Configuración y Context Engineering | Crea tu repositorio, prepara tu entorno y dale a Copilot el contexto adecuado            |
+| [**02**](02-plan-and-scaffold.md) | Planificar y Estructurar            | Diseña la API y la arquitectura de páginas antes de implementar                          |
+| [**03**](03-agent-mode.md)        | Construir el Juego                  | Conecta la página de batalla y los gráficos de contribuciones con ayuda agéntica         |
+| [**04**](04-design-vibes.md)      | Diseño Visual Primero               | Transforma la estructura base en una experiencia retro arcade                            |
+| [**05**](05-polish.md)            | Pulido y Trabajo Paralelo           | Usa flujos de trabajo multi-agente para mejorar UX, resiliencia y calidad                |
+| [**06**](06-bonus.md)             | Bonus y Extensiones                 | Explora funcionalidades abiertas, flujos de trabajo de compartición y experimentos extra |
 
 ---
 
@@ -96,9 +101,11 @@ Antes de empezar, verifica:
 4. **Revisa los cambios de Copilot** — usa la vista de diferencias o las herramientas de revisión del CLI en lugar de aceptar a ciegas.
 
 <!-- track:vscode:start -->
+
 5. **Usa puntos de control y Deshacer** en el chat si una iteración se desvía.
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 5. **Usa `/session`, `/context` y `/share file`** cuando quieras inspeccionar o preservar tu trabajo.
 <!-- track:cli:end -->

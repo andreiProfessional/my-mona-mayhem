@@ -1,4 +1,5 @@
 <!-- l10n-sync: source-file="workshop/05-polish.md" -->
+
 # Parte 5: Pulido y Trabajo Paralelo
 
 ---
@@ -6,6 +7,7 @@
 Ahora que la aplicación funciona y se ve genial, es hora de pulir. Esta parte trata sobre dividir el trabajo para que puedas mejorar la responsividad, el manejo de errores y la calidad sin hacer todo en un solo bucle serial.
 
 <!-- track:vscode:start -->
+
 ## Tarea 1: Agente en Segundo Plano para Diseño Responsivo
 
 1. En el panel de Chat, haz clic en **+** → **New background agent**.
@@ -50,9 +52,11 @@ Ahora que la aplicación funciona y se ve genial, es hora de pulir. Esta parte t
 4. Revisa la variación de diseño en el PR que el agente en la nube crea.
 
 ## Tarea 4: Verifica Todo
+
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
+
 ## Tarea 1: Divide el Trabajo con `/fleet`
 
 En Copilot CLI, usa `/fleet` para dividir el trabajo entre subagentes paralelos, luego revisa el resultado combinado:
@@ -87,20 +91,21 @@ Antes de terminar, pide a Copilot CLI una pasada de revisión:
 Revisa los hallazgos, corrige lo que consideres necesario, luego ejecuta `/diff` nuevamente para tener claro qué cambió.
 
 ## Tarea 4: Verifica Todo
+
 <!-- track:cli:end -->
 
 > **⚠️ ¿No ves los cambios?** Si alguna de las actualizaciones de pulido no aparece, detén el servidor de desarrollo (`Ctrl+C`) y reinicia con `npm run dev`, luego haz una recarga forzada (`Ctrl+Shift+R`) en tu navegador.
 
 Ejecuta estos escenarios de prueba para asegurarte de que todo funciona:
 
-| Prueba | Resultado Esperado |
-|--------|-------------------|
-| Campos vacíos, clic en Battle | Error con estilo y animación de sacudida |
-| Nombres de usuario válidos | Gráficos de contribuciones mostrados |
-| Nombre de usuario inválido | Error de la API con estilo retro |
-| Tecla Enter en el input | Activa la batalla |
-| Ancho móvil | Diseño responsivo de una sola columna |
-| Pasar el cursor sobre cuadros de contribución | Tooltip con fecha y cantidad |
+| Prueba                                        | Resultado Esperado                       |
+| --------------------------------------------- | ---------------------------------------- |
+| Campos vacíos, clic en Battle                 | Error con estilo y animación de sacudida |
+| Nombres de usuario válidos                    | Gráficos de contribuciones mostrados     |
+| Nombre de usuario inválido                    | Error de la API con estilo retro         |
+| Tecla Enter en el input                       | Activa la batalla                        |
+| Ancho móvil                                   | Diseño responsivo de una sola columna    |
+| Pasar el cursor sobre cuadros de contribución | Tooltip con fecha y cantidad             |
 
 Compila para producción y confirma que no hay errores:
 
